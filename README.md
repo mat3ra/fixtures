@@ -137,17 +137,18 @@ Here's the folder structure of the repository:
 ```txt
 data
 ├── applications
-│   ├── asylum_spm
-│   ├── dc_iv_instrument
-│   ├── espresso
-│   │   └── 5.4.0
-│   │       ├── case-001
-│   │       ├── case-002
-│   │       ├── case-003
-│   │       └── manifest.yml
-│   └── xrf_instrument
+│   └── espresso
+│       └── 5.4.0
+│           ├── case-001
+│           ├── case-002
+│           ├── case-003
+│           └── manifest.yml
 ├── db
-└── formats
+├── formats
+└── instruments
+    ├── asylum_spm
+    ├── dc_iv_instrument
+    └── xrf_instrument
 ```
 
 For each version of the application, there are multiple cases. Each case contains the data that is used for testing.  The manifest file is a YAML file that contains the metadata about all the cases.

@@ -137,6 +137,9 @@ Here's the folder structure of the repository:
 ```txt
 data
 ├── applications
+│   ├── asylum_spm
+│   ├── dc_iv_instrument
+│   ├── xrf_instrument
 │   └── espresso
 │       └── 5.4.0
 │           ├── case-001

@@ -139,13 +139,13 @@ data
 ├── applications
 │   ├── asylum_spm
 │   ├── dc_iv_instrument
-│   ├── xrf_instrument
-│   └── espresso
-│       └── 5.4.0
-│           ├── case-001
-│           ├── case-002
-│           ├── case-003
-│           └── manifest.yml
+│   ├── espresso
+│   │   └── 5.4.0
+│   │       ├── case-001
+│   │       ├── case-002
+│   │       ├── case-003
+│   │       └── manifest.yml
+│   └── xrf_instrument
 ├── db
 └── formats
 ```

@@ -144,7 +144,11 @@ data
 │           ├── case-003
 │           └── manifest.yml
 ├── db
-└── formats
+├── formats
+└── instruments
+    ├── asylum_spm
+    ├── dc_iv_instrument
+    └── xrf_instrument
 ```
 
 For each version of the application, there are multiple cases. Each case contains the data that is used for testing.  The manifest file is a YAML file that contains the metadata about all the cases.

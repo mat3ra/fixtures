@@ -11,9 +11,10 @@ instruments:
   xrf_instrument:
     v1.0:
       workflow: /data/instruments/xrf_instrument/1.0/case-001/workflow.json
-      grid: /data/instruments/xrf_instrument/1.0/case-001/com5_1448_xrf_grid.txt
+      table: /data/instruments/xrf_instrument/1.0/case-001/com5_1448_xrf_grid.txt
   dc_iv_instrument:
     v1.0:
       workflow: /data/instruments/dc_iv_instrument/1.0/case-001/workflow.json
       voltage: /data/instruments/dc_iv_instrument/1.0/case-001/1448 DC IV data/IV_Volts.txt
       current: /data/instruments/dc_iv_instrument/1.0/case-001/1448 DC IV data/IV_Amps.txt
+      positions: /data/instruments/dc_iv_instrument/1.0/case-001/1448 DC IV data/IV_Positions.txt

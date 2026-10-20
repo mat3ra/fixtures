@@ -11,7 +11,7 @@ instruments:
   xrf_instrument:
     v1.0:
       workflow: /data/instruments/xrf_instrument/1.0/case-001/workflow.json
-      table: /data/instruments/xrf_instrument/1.0/case-001/com5_1448_xrf_grid/com5_1448_xrf_grid.txt
+      table: /data/instruments/xrf_instrument/1.0/case-001/1448 XRF data/com5_1448_xrf_grid.txt
   dc_iv_instrument:
     v1.0:
       workflow: /data/instruments/dc_iv_instrument/1.0/case-001/workflow.json

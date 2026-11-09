@@ -1,7 +1,7 @@
 &input_pw2bgw
     prefix = '__prefix__'
     outdir = '{{ JOB_WORK_DIR }}/outdir'
-    real_or_complex = 1
+    real_or_complex = 2
     wfng_flag = .true.
     wfng_file = '../WFN'
     wfng_kgrid = .true.
